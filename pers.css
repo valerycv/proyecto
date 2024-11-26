@@ -1,0 +1,43 @@
+
+window {
+    background: linear-gradient(135deg, #fdc5ff, #d7b6d8); 
+    border-radius: 10px; 
+    border: 2px solid #ebc5f7; 
+    padding: 10px;
+}
+
+
+
+/* Botones */
+.titlebar button {
+    border-radius: 50%; 
+    background-color: #ffcccc; 
+    padding: 5px; 
+    margin: 2px; 
+    border: none; 
+}
+
+/* Cambiar el color al pasar el mouse */
+.titlebar button:hover {
+    background-color: #ff9999; 
+}
+
+/* Entradas de texto */
+entry {
+    border-radius: 5px; 
+    padding: 5px; 
+    border: 1px solid #fae3f6;
+    background-color: #fae3f6; 
+    color: #3c4043; 
+    transition: border-color 0.2s ease; 
+}
+
+entry:focus {
+    border-color: #ebcfe6; 
+}
+
+/* Etiquetas */
+label {
+    font-size: 14px;
+    color: #6c757d; 
+}
